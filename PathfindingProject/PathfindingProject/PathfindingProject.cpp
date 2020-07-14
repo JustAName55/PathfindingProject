@@ -190,6 +190,8 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 
 void DjikstrasAlgorithm()
 {
+    // Following this tutorial https://medium.com/@nicholas.w.swift/easy-dijkstras-pathfinding-324a51eeb0f
+
     // Build a node grid, maybe 4x4 to start?
     std::unordered_set<Node> grid;
     BuildGrid(grid);
